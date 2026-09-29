@@ -1,0 +1,22 @@
+body { font-family: system-ui, sans-serif; 
+max-width: 320px; 
+margin: 3rem auto; 
+padding: 0 1rem; 
+}
+
+.campo { margin-bottom: 1rem; }
+label { display: block; margin-bottom: .25rem; }
+input { width: 100%; 
+padding: .5rem; 
+box-sizing: border-box; 
+border: 1px solid #999; 
+border-radius: 4px; 
+}
+
+input.input-error { border-color: red; }
+.error { color: red; 
+font-size: .9rem; 
+margin-top: .25rem; 
+display: block; }
+button { padding: .5rem 1rem; }
+.botones { margin-top: 1rem; }
